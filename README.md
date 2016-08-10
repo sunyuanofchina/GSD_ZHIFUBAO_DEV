@@ -2,30 +2,30 @@
 支付宝高仿版
 
 ![](http://cdn.cocimg.com/bbs/attachment/Fid_19/19_441660_27f509e864e8624.gif)
+![github](https://github.com/sunyuanofchina/GSD_ZHIFUBAO_DEV/blob/master/image/demo1.png "github")  
+![github](https://github.com/sunyuanofchina/GSD_ZHIFUBAO_DEV/blob/master/image/demo2.png "github")  
 
-等待完成界面：
 
-1.手势解锁界面
 
-2.其他详情页面
+已经完成的demo：
 
-已经完成界面：
+1.首页布局
 
-1.支付宝Home页（可自由对图标进行拖动排序和删除，已实现设置数据持久化存储）
+2.更多页的布局
 
-2.二维码、条形码扫描功能
+3.对按钮的拖动，删除，添加，已实现设置数据持久化存储，可根据需要线上请求
 
-3.服务界面
+4.服务界面
 
-4.财富界面
+5.财富界面
 
-5.余*额宝界面（收益数字动态表现）
+6.余*额宝界面（收益数字动态表现）
 
+5.二维码、条形码扫描功能
 
 
 欢迎有兴趣的同学和我一起努力完善此款APP
 
-
 ——————————————————————————————————
 
-app尚未完全完工，代码也尚未重构，先实现功能为主，如果您对此款APP的架构设计或者代码文件组织方面有良好的意见或者建议，您可以发送邮件到gsdios@126.com 或者 关注我的微博账号GSD_iOS联系，谢谢。 
+app尚未完全完工，代码也尚未重构，先实现功能为主，如果您对此款APP的架构设计或者代码文件组织方面有良好的意见或者建议，您可以发送邮件到sunyuanofchina@vip.qq.com 谢谢。 

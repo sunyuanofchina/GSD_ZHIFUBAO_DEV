@@ -66,6 +66,10 @@
 		99AFEA001B20ACB40049E73B /* SDDiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AFE9FF1B20ACB40049E73B /* SDDiscoverTableViewController.m */; };
 		99AFEA031B20AEC20049E73B /* SDDiscoverTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AFEA021B20AEC20049E73B /* SDDiscoverTableViewHeader.m */; };
 		99AFEA061B20AFC50049E73B /* SDDiscoverTableViewHeaderItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AFEA051B20AFC50049E73B /* SDDiscoverTableViewHeaderItemButton.m */; };
+		AA3318B71CF30D5100B73FEA /* FlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3318B61CF30D5100B73FEA /* FlowViewController.m */; };
+		AA3318B91CF30E3B00B73FEA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3318B81CF30E3B00B73FEA /* SystemConfiguration.framework */; };
+		AA3C233F1CEDCB0C0076C35D /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3C233D1CEDCB0C0076C35D /* demo1.png */; };
+		AA3C23401CEDCB0C0076C35D /* demo2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3C233E1CEDCB0C0076C35D /* demo2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,6 +200,11 @@
 		99AFEA021B20AEC20049E73B /* SDDiscoverTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDDiscoverTableViewHeader.m; sourceTree = "<group>"; };
 		99AFEA041B20AFC50049E73B /* SDDiscoverTableViewHeaderItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDDiscoverTableViewHeaderItemButton.h; sourceTree = "<group>"; };
 		99AFEA051B20AFC50049E73B /* SDDiscoverTableViewHeaderItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDDiscoverTableViewHeaderItemButton.m; sourceTree = "<group>"; };
+		AA3318B51CF30D5100B73FEA /* FlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowViewController.h; sourceTree = "<group>"; };
+		AA3318B61CF30D5100B73FEA /* FlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowViewController.m; sourceTree = "<group>"; };
+		AA3318B81CF30E3B00B73FEA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AA3C233D1CEDCB0C0076C35D /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
+		AA3C233E1CEDCB0C0076C35D /* demo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +212,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3318B91CF30E3B00B73FEA /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +330,7 @@
 		9929034A1B1EBDBC00290346 = {
 			isa = PBXGroup;
 			children = (
+				AA3318B81CF30E3B00B73FEA /* SystemConfiguration.framework */,
 				992903551B1EBDBC00290346 /* GSD_ZHIFUBAO */,
 				9929036F1B1EBDBC00290346 /* GSD_ZHIFUBAOTests */,
 				992903541B1EBDBC00290346 /* Products */,
@@ -347,6 +358,7 @@
 		992903561B1EBDBC00290346 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA3C233C1CEDCB0C0076C35D /* image */,
 				992903631B1EBDBC00290346 /* Images.xcassets */,
 				992903571B1EBDBC00290346 /* Info.plist */,
 				992903581B1EBDBC00290346 /* main.m */,
@@ -468,6 +480,8 @@
 			children = (
 				9958FB9F1B23046900BC9E92 /* SDScanViewController.h */,
 				9958FBA01B23046900BC9E92 /* SDScanViewController.m */,
+				AA3318B51CF30D5100B73FEA /* FlowViewController.h */,
+				AA3318B61CF30D5100B73FEA /* FlowViewController.m */,
 			);
 			name = Scan;
 			sourceTree = "<group>";
@@ -724,6 +738,15 @@
 			name = SDDiscoverTableViewHeader;
 			sourceTree = "<group>";
 		};
+		AA3C233C1CEDCB0C0076C35D /* image */ = {
+			isa = PBXGroup;
+			children = (
+				AA3C233D1CEDCB0C0076C35D /* demo1.png */,
+				AA3C233E1CEDCB0C0076C35D /* demo2.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -805,9 +828,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				99AFE9F31B20785D0049E73B /* SDServiceTableViewCell.xib in Resources */,
+				AA3C23401CEDCB0C0076C35D /* demo2.png in Resources */,
 				99AFE9E41B2033970049E73B /* SDAssetsTableViewHeader.xib in Resources */,
 				990759CE1B2141820042DD52 /* SDYuEBaoTableViewCellContentView.xib in Resources */,
 				992903641B1EBDBC00290346 /* Images.xcassets in Resources */,
+				AA3C233F1CEDCB0C0076C35D /* demo1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -832,6 +857,7 @@
 				9904C7591B1F2F3800E2717D /* TADotView.m in Sources */,
 				9969DE3C1B1ED60400723888 /* MKAnnotationView+WebCache.m in Sources */,
 				9969DE491B1ED60400723888 /* UIImageView+WebCache.m in Sources */,
+				AA3318B71CF30D5100B73FEA /* FlowViewController.m in Sources */,
 				992903921B1EC99300290346 /* UIView+SDExtension.m in Sources */,
 				990759DA1B2216DC0042DD52 /* SDYuEBaoTableViewController.m in Sources */,
 				99AFE9CF1B200DB90049E73B /* SDBasicTableViewController.m in Sources */,
