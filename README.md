@@ -1,10 +1,8 @@
 # GSD_ZHIFUBAO
 支付宝高仿版
 
-
-![github](https://github.com/sunyuanofchina/GSD_ZHIFUBAO_DEV/image/demo1.png "github")  
-![github](https://github.com/sunyuanofchina/GSD_ZHIFUBAO_DEV/image/demo2.png "github")  
-
+![github](https://github.com/sunyuanofchina/GSD_ZHIFUBAO_DEV/blob/master/image/demo1.png "github")  
+![github](https://github.com/sunyuanofchina/GSD_ZHIFUBAO_DEV/blob/master/image/demo2.png "github")  
 
 
 已经完成的demo：
