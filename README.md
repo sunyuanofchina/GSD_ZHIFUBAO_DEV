@@ -1,9 +1,9 @@
 # GSD_ZHIFUBAO
 支付宝高仿版
 
-![](http://cdn.cocimg.com/bbs/attachment/Fid_19/19_441660_27f509e864e8624.gif)
-![github](https://github.com/sunyuanofchina/GSD_ZHIFUBAO_DEV/blob/master/image/demo1.png "github")  
-![github](https://github.com/sunyuanofchina/GSD_ZHIFUBAO_DEV/blob/master/image/demo2.png "github")  
+
+![github](https://github.com/sunyuanofchina/GSD_ZHIFUBAO_DEV/image/demo1.png "github")  
+![github](https://github.com/sunyuanofchina/GSD_ZHIFUBAO_DEV/image/demo2.png "github")  
 
 
 
